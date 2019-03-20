@@ -104,4 +104,110 @@ nav li a {
 	color: white;
 	grid-area: footer;
 }
+html{
+font-family: 'Indie Flower', cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+nav ul {	
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: LightGray;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+	padding: 30px;
+	text-align: center;
+	}
+	
+@media only screen and (max-width: 600px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 0px;
+	padding: 5px;
+  }
+
+  .project-tile {
+	flex: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+}
+
+#welcome-section {
+	min-height: 75vh;
+	padding-top: 25vh;
+	background-color: LightSkyBlue;
+	text-align: center;
+}
+#frame {
+	margin: auto;
+	width: 300px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+#projects {
+	width: 100vw;
+	height: 100vh;
+	background-color: LightGreen;
+	text-align: center;
+}
+#projects h2 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#tiles {
+	display: flex;	
+}
+.project-tile {
+	flex: 25%;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	border: 1px solid white;
+}
+
+#contacts {
+	width: 100vw;
+	height: 100vh;
+	background-color: LightYellow;
+	grid-area: section3;
+	text-align: center;
+}
+#contacts h2 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#github {
+	border: 1px solid blue;
+	border-radius: 40%;
+	padding: 20px;
+	width: 20%;
+	margin: auto;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	grid-area: footer;
+}
 	
